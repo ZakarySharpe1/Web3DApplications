@@ -109,7 +109,7 @@ h6 {
 }
 
 .card {
-  border: 0px solid rgba(0, 0, 0, 0.2);
+  border: 0px solid rgba(255, 255, 255, 0.2);
   /* border-radius: .25rem;*/
   margin-top: 10px;
   margin-bottom: 10px;
@@ -199,7 +199,7 @@ h6 {
     There is plenty more styling to do than indicated here, in mobile it still defaults to Bootstrap CSS on dropdown!
     */
 .navbar_coca_cola .navbar-nav > li > a {
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 /* CSS rule to overwrite the bootstrap.css text hover color on the navbar
@@ -218,8 +218,8 @@ h6 {
 .navbar_coca_cola .navbar-nav .nav-item > .active,
 .navbar_coca_cola .navbar-nav > .active > a:hover,
 .navbar_coca_cola .navbar-nav > .active > a:focus {
-  color: #760003; /* Font color for active font */
-  background-color: #3399ff; /* Blue color for background */
+  color: #ff0008; /* Font color for active font */
+  background-color: #ffffff; /* Blue color for background */
 }
 
 /* A set of CSS rules to change the Bootstrap defaults for the menu link text color, hover, background, focus
@@ -266,8 +266,8 @@ h6 {
 /* CSS rule to style the footer */
 .footer {
   color: #030303;
-  background-color: #760003; /* Set navbar footer background color same as header */
-  height: 50px;
+  background-color: #ffffff; /* Set navbar footer background color same as header */
+  height: 80px;
 }
 
 .navbar-text > a {
@@ -275,8 +275,8 @@ h6 {
 }
 
 .navbar-text > p {
-  color: rgb(255, 255, 255);
-  font-size: 14px;
+  color: rgb(255, 0, 0);
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -318,7 +318,7 @@ h6 {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #760003; /* Font color for active font */
-  background-color: #3399ff; /* Blue color for background */
+  background-color: #ffffff; /* Blue color for background */
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -445,6 +445,10 @@ x3d {
     margin-top: 7%;
   }
 
+  .coke_bottle {
+    height: 100px;
+  }
+
   .drinksText > h2 {
     color: rgb(0, 0, 0);
     font-size: 25px;
@@ -470,7 +474,7 @@ x3d {
     /* border-radius: .25rem;*/
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: rgb(202, 181, 181);
+    background-color: rgb(255, 255, 255);
   }
 
   .navbar_coca_cola {
@@ -480,7 +484,7 @@ x3d {
 
   /* CSS rule to style the footer */
   .footer {
-    background-color: #94d874;
+    background-color: #ffffff;
     height: 60px;
   }
 
@@ -489,7 +493,7 @@ x3d {
   }
 
   .navbar-text > p {
-    color: rgb(228, 75, 15);
+    color: rgb(255, 0, 0);
   }
 
   .copyright {
@@ -544,7 +548,7 @@ x3d {
     /* border-radius: .25rem;*/
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: rgb(218, 216, 148);
+    background-color: rgb(255, 255, 255);
   }
 
   #main_text {
@@ -621,7 +625,7 @@ x3d {
 
   /* CSS rule to style the footer */
   .footer {
-    background-color: #b890b1;
+    background-color: #ffffff;
     height: 60px;
   }
 
@@ -630,7 +634,7 @@ x3d {
   }
 
   .navbar-text > p {
-    color: rgb(12, 5, 3);
+    color: rgb(255, 0, 0);
     font-size: 18px;
   }
 
@@ -683,7 +687,7 @@ x3d {
     /* border-radius: .25rem;*/
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: rgb(185, 185, 178);
+    background-color: rgb(255, 255, 255);
   }
 
   .logo {
@@ -737,7 +741,7 @@ x3d {
 
   /* CSS rule to style the footer */
   .footer {
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     height: 75px;
   }
 
@@ -746,7 +750,7 @@ x3d {
   }
 
   .navbar-text > p {
-    color: rgb(12, 5, 3);
+    color: rgb(255, 0, 0);
     font-size: 23px;
   }
 
